@@ -209,5 +209,6 @@ pip-selfcheck.json
 
 # Pasta QRCode
 .qrcode/
+.qrcode/*
 
 # End of https://www.toptal.com/developers/gitignore/api/python,virtualenv,visualstudiocode
