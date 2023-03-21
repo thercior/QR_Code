@@ -21,8 +21,17 @@ Para executar do terminal, navegue até a raiz do projeto, e em seguida digite:
 * Para Windows: `<code>`python qrcodegenerator.py `</code>`
 * Para Linux: `<code>`python3 qrcodegenerator.py.py `</code>`
 
-Após isso, uma janela(form) window é aberta solicitando que você informe o link ou arquivo que deseja gerar o QR Code. 
+Após isso, uma janela(form) window é aberta solicitando que você informe o link ou arquivo que deseja gerar o QR Code. A janela será conforme abaixo:
 
-Ao apertar Gerar, uma imagem do QRCode será gerado e salvo na pasta raiz do projeto
+![image](https://user-images.githubusercontent.com/116044972/226730823-c694157c-90a8-4265-820a-54ea6b915b87.png)
 
-<img align="left" alt="Img" src="https://dsm01pap005files.storage.live.com/y4mIXlmsb52_er9vlf-HRzfRu5YJEXwqcYpeMaDiCWkN0y_yQUcXIj2n7NqlXxnfwEL9wq1_KKOLkC3C07EmO9MBkBIbkYz9HEe0Iiewy8j98M48X-374juXNk7e-H8fcCSKlPH_7L7pX-xowLp6vp2aWoiyX1r62SEfccHXsaMBNbrNAlTwsoeQkcnjSDTCaeWYTC-DbU2XIYa4KGQGWqOubb3f0yPm9-jC3CdT_JDA8M?encodeFailures=1&width=340&height=196">
+Insira o link a qual deseja gerar um QRCode. Após apertar gerar, uma mensagem será exibida (imagem abaixo) pedindo para você confirmar se o link a qual deseja gerar o QRCode está correto. 
+
+![image](https://user-images.githubusercontent.com/116044972/226731644-54073989-0ccc-4baa-9b97-d11e03d48ed1.png)
+
+Após confirmar, uma mensagem será exibida informando que o QR Code foi gerado com sucesso. 
+![image](https://user-images.githubusercontent.com/116044972/226732358-ca4fcba4-b6a3-4b6a-a81a-2f06702f9035.png)
+
+
+O mesmo está salvo no caminho <code>".qrcode/qrcode.png"</code> na pasta raíz do projeto.
+Basta apenas agora usar a câmera do celular para testar e escanear o seu QRCode gerado.
