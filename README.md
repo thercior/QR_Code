@@ -2,15 +2,15 @@
 
 ## Sobre
 
-O `<b>`QR Code Generator `</b>` é uma aplicação rápida e simples com interface GUI para gerar QR Code de links, imagens e números.
+O <b>QR Code Generator </b> é uma aplicação rápida e simples com interface GUI para gerar QR Code de links, imagens e números.
 
 ## Pré-requisitos
 
 É necessário instalar as bibliotecas utilizadas no projeto. Para isto, execute o comando abaixo na raiz do projeto:
 
-`<code>`pip install -r requirements.txt `</code>`
+<code>pip install -r requirements.txt </code>
 
-A Biblioteca `<b>`tkinter `</b>` é nativa e já vem com o python. Portanto, basta apenas importar.
+A Biblioteca <b>tkinter </b> é nativa e já vem com o python. Portanto, basta apenas importar.
 
 ## Utilização
 
@@ -18,8 +18,8 @@ Para executar o programa, basta utilizar qualquer IDE que você utiliza, ou pode
 
 Para executar do terminal, navegue até a raiz do projeto, e em seguida digite:
 
-* Para Windows: `<code>`python qrcodegenerator.py `</code>`
-* Para Linux: `<code>`python3 qrcodegenerator.py.py `</code>`
+* Para Windows: <code>python qrcodegenerator.py </code>
+* Para Linux: <code>python3 qrcodegenerator.py.py </code>
 
 Após isso, uma janela(form) window é aberta solicitando que você informe o link ou arquivo que deseja gerar o QR Code. 
 
